@@ -1,0 +1,1 @@
+#Spotify rpm pour Mageia
