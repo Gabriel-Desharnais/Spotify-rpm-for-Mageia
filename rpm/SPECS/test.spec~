@@ -1,0 +1,14 @@
+%define nom Spotify
+Name:		test
+Summary:	Test
+Version:	3
+Release:	4
+License:	gg
+
+
+%description
+testtesttest
+
+%files
+%defattr(-,root,root)
+

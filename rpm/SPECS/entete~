@@ -1,0 +1,14 @@
+%define name Spotify
+%define version 1.0.34.146
+%define release mga6.1
+Name:		%{name}
+Version:	%{version}
+Release:	%{release}
+Summary:	Test
+License:	gg
+
+
+%description
+testtesttest
+home/gabriel/Programmation/Spotify rpm for Mageia/rpm/BUILDROOT/Spotify-1.0.34.146-mga6.1.x86_64/usr/share/applications/test.desktop
+usr/share/applications/test.desktop

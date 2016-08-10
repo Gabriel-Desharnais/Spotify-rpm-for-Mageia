@@ -1,0 +1,12 @@
+%define name Spotify
+%define version 1.0.34.146
+%define release mga6.1
+Name:		%{name}
+Version:	%{version}
+Release:	%{release}
+Summary:	Test
+License:	gg
+AutoReqProv: no
+
+%description
+testtesttest

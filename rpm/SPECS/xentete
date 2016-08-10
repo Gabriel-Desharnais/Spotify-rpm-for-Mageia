@@ -1,0 +1,9 @@
+Name:		%{name}
+Version:	%{version}
+Release:	%{release}
+Summary:	Test
+License:	gg
+AutoReqProv: no
+
+%description
+testtesttest
