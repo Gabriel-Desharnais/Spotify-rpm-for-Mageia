@@ -15,3 +15,13 @@
 [![chrome](https://img.shields.io/badge/Liste-téléchargement-blue.svg)](http://repository.spotify.com/pool/non-free/s/spotify-client/)
 
 - Décompresser le fichier
+- Créer un dosier pour contenir votre projet
+- Placer le dosier image (dans ce cas «usr») dans un sous-dosier nommé «root»
+- Copier le fichier «Makefile» à la base de votre répertoire du projet
+- Créer un fichier «name» qui contient le nom de votre application
+- Créer un fichier «release» qui contient une chaine semblable à «mga5.1»
+- Créer un fichier «version» contient le numéro de version du logiciel
+- Créer un fichier «arc» contient l'architecture de la cible (32 bits: i386, 64 bits: x86_64)
+- Ouvrir un terminal à la racine du projet et lancer la commande 
+`make init`
+- 
