@@ -36,4 +36,10 @@ init:
 	@mv root "${pwd}"/BUILDROOT/root
 	@mv "${pwd}"/BUILDROOT/root "${pwd}"/BUILDROOT/${nomDeTravail}
 	@mv Makefile "${pwd}"/SPECS
-	
+	@echo "%_topdir                %(echo $HOME)/Programmation/Spotify rpm for Mageia/rpm"> ~/.rpmmacros
+	@echo "%_tmppath               %(echo $HOME)/Programmation/Spotify rpm for Mageia/rpm/tmpbuild">>~/.rpmmacros
+	@echo "%_signature             gpg">> ~/.rpmmacros
+	@echo "%_gpg_name              Mageialinux">> ~/.rpmmacros
+	@echo "%_gpg_path              ~/.gnupg">> ~/.rpmmacros
+	@echo "%packager               jc">> ~/.rpmmacros
+	@echo "%distributor            Mageia.org">> ~/.rpmmacros
