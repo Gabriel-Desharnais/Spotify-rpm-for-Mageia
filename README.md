@@ -24,4 +24,4 @@
 - Créer un fichier «arc» contient l'architecture de la cible (32 bits: i386, 64 bits: x86_64)
 - Ouvrir un terminal à la racine du projet et lancer la commande 
 `make init`
-- 
+- maintenant il suffit de lancer le `rpmbuild` et voilà
