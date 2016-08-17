@@ -7,7 +7,10 @@ pwd:=$(shell pwd)
 ppd:=$(shell echo ${pwd} | sed -e s/\\/[^\\/]*$$//)
 tarDir:=${ppd}/BUILDROOT/${nomDeTravail}/
 lt:=$(shell echo -n "${tarDir}" | wc -c)
-all: Spotify.spec
+all: Spotify.spec ${ppd}/RPMS/${arc}/${nomDeTravail}.rpm
+
+${ppd}/RPMS/${arc}/${nomDeTravail}.rpm: Spotify.spec
+	@rpmbuild --target ${arc}  Spotify.spec
 
 Spotify.spec: entete fichiers lsfichiers
 	@cat entete>Spotify.spec
